@@ -1,0 +1,38 @@
+.nav-pills .nav-link {
+    background-color: white;
+    color: #4c3144;
+    font-weight:550;
+    border-radius: 0%;
+    margin-top: -20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link:hover{
+    background-color:#4c3144;
+    color:white;
+    font-weight:550;
+}
+
+.divider {
+    width: 80%;
+    height: 4px;
+    /* width: 46%; */
+    margin: 0 auto 40px;
+    background-color: #fff;
+}
+
+#our-values-line.divider {
+    width: 80%;
+    height: 4px;
+    /* width: 46%; */
+    margin: 0 auto 40px;
+    background-color: #444C31;
+    /* margin-bottom: -1px; */
+}
+
+#small-header{
+    background-color: #444C31;
+    color: white;
+    
+}
+
+
