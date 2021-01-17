@@ -34,12 +34,6 @@
     /* margin-bottom: -1px; */
 }
 
-#small-header{
-    background-color: #31444C;
-    color: white;
-    
-}
-
 #my-history-tab.nav-pills .nav-link {
     background-color: white;
     color: #4C3144;
@@ -59,6 +53,9 @@
     font-weight:550;
 }
 
-
-
+footer .p-3 {
+    background-color: #9d729e;
+    margin-right: -12px;
+    margin-left: -12px;
+}
 
