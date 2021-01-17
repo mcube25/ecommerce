@@ -1,4 +1,4 @@
-.section-1{
+.section-we-today{
     background: url(img1.jpg) center no-repeat;
     background-size: cover;
     color: #fff;
@@ -6,7 +6,27 @@
     padding-bottom: 65px;
 }
 
+.section-history{
+    background: url(img2.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.section-vision{
+    background: url(img3.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
 #about-item-line {
-    background-color: #4c3144;
+    background-color: #4C4731;
     width: 90%;
 }
+
+/* .non-white-text {
+    color: #333333; 
+} */

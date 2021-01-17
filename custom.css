@@ -1,13 +1,18 @@
 .nav-pills .nav-link {
     background-color: white;
-    color: #4c3144;
+    color: #31444C;
     font-weight:550;
     border-radius: 0%;
     margin-top: -20px;
 }
 
-.nav-pills .nav-link.active, .nav-pills .nav-link:hover{
-    background-color:#4c3144;
+.nav-pills .nav-link.active{
+    background-color:#31444C;
+    color:white;
+    font-weight:550;
+}
+.nav-pills .nav-link:hover{
+    background-color:#72849e;
     color:white;
     font-weight:550;
 }
@@ -25,14 +30,35 @@
     height: 4px;
     /* width: 46%; */
     margin: 0 auto 40px;
-    background-color: #444C31;
+    background-color: #31444C;
     /* margin-bottom: -1px; */
 }
 
 #small-header{
-    background-color: #444C31;
+    background-color: #31444C;
     color: white;
     
 }
+
+#my-history-tab.nav-pills .nav-link {
+    background-color: white;
+    color: #4C3144;
+    font-weight:550;
+    border-radius: 0%;
+    margin-top: -20px;
+}
+
+#my-history-tab.nav-pills .nav-link.active{
+    background-color:#4C3144;
+    color:white;
+    font-weight:550;
+}
+#my-history-tab.nav-pills .nav-link:hover{
+    background-color:#9d729e;
+    color:white;
+    font-weight:550;
+}
+
+
 
 
