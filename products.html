@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Ecommerce website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <meta name="keywords" content="books, clothes and computers" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,400italic,500,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <!--		 Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?sensor=false&#038;ver=3.0'></script>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://use.typekit.net/ldb1cya.css">
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- web-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400,500,600,700,800" rel="stylesheet">
+    <!-- //web-fonts -->
+</head>
+<body>
+
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Clothes</a>
+            <a class="dropdown-item" href="#">Books and Computers</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">New Stock</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Checkout" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cart</button>
+      </form>
+    </div>
+  </nav>
+  <section id="cart" class="section-scroll main-section shop">
+
+  	<ul class="list-category">
+  		<li>
+  			<span class="filter" data-filter="all">Show all</span>
+  		</li>
+  		<li>
+  			<span class="filter" data-filter=".category-1">Promotions</span>
+  		</li>
+  		<li>
+  			<span class="filter" data-filter=".category-2">Books</span>
+  		</li>
+  		<li>
+  			<span class="filter" data-filter=".category-3">Clothes</span>
+  		</li>
+  		<li>
+  			<span class="filter" data-filter=".category-4">Computers</span>
+  		</li>
+  		<li>
+  			<span class="filter" data-filter=".category-5">New Stock</span>
+  		</li>
+  		<li class="shop-list">
+  			<ul>
+  				<li class="shopping">
+  					<a href="cart.html">Checkout</a>
+  				</li>
+  				<li class="shopping">
+  					<a href="#">Wishlist</a>
+  				</li>
+  				<li class="shopping">
+  					<a href="#">Login</a>
+  				</li>
+  				<li class="shopping-cart">
+  	<a href="cart.html" class="cart">Cart</a>
+  	<ul class="show-cart">
+  		<li class="product">
+  			<a href="product.html" class="img-product">
+  				<figure><img src="http://placehold.it/100x100" alt=""/></figure>
+  			</a>
+  			<div class="list-product">
+  				<a href="product.html"><h5>Hp Laptop</h5></a>
+  				<div class="quantity">1</div>
+  				<div class="price-product">$22.90</div>
+  				<div class="remove-product"><i class="icon-close"></i></div>
+  			</div>
+  		</li>
+  		<li class="product">
+  			<a href="product.html" class="img-product">
+  				<figure><img src="http://placehold.it/100x100" alt=""/></figure>
+  			</a>
+  			<div class="list-product">
+  				<h5>Designer Jeans</h5>
+  				<div class="quantity">1</div>
+  				<div class="price-product">$16.50</div>
+  				<div class="remove-product"><i class="icon-close"></i></div>
+  			</div>
+  		</li>
+  		<li class="product">
+  			<a href="product.html" class="img-product">
+  				<figure><img src="http://placehold.it/100x100" alt=""/></figure>
+  			</a>
+  			<div class="list-product">
+  				<h5>Best seller books </h5>
+  				<div class="quantity">3</div>
+  				<div class="price-product">$15.90</div>
+  				<div class="remove-product"><i class="icon-close"></i></div>
+  			</div>
+  		</li>
+  		<li class="summation">
+  			<div class="summation-subtotal">
+  				<span>subtotal:</span>
+  				<span class="amount">$87.10</span>
+  			</div>
+  			<div class="btn-cart">
+  				<button class="btn btn-default"><a href="cart.html">view cart</a></button>
+  				<button class="btn btn-dark"><a href="cart.html">checkout</a></button>
+  			</div>
+  		</li>
+
+  	</ul>
+  </li>
+  			</ul>
+  		</li>
+  	</ul>
+  	<header class="section-header">
+  		<h2>Cart</h2>
+  	</header>
+  	<div class="container-fluid">
+  		<div class="row">
+  			<div class="cart-products">
+  				<div class="container">
+  					<div class="row cart-header">
+  						<div class="col-xs-4 col-sm-5">
+  							<h5 class="product-name">Product name</h5>
+  						</div>
+  						<div class="col-xs-2">
+  							<h5 class="product-price">Unit price</h5>
+  						</div>
+  						<div class="col-xs-2">
+  							<h5 class="product-quantity">Qty</h5>
+  						</div>
+  						<div class="col-xs-2">
+  							<h5 class="product-subtotal">Subtotal</h5>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="container">
+  				<div class="row cart-item">
+  					<div class="col-xs-4 col-sm-5 product-name">
+  						<a href="product.html" class="product-thumbnail"><img src="http://placehold.it/100x100" class="" alt=""></a>
+  						<a href="product.html" class="name">Books</a>
+
+  					</div>
+  					<div class="col-xs-2 product-position product-price">
+  						<span class="amount">$22.90</span>
+  					</div>
+  					<div class="col-xs-2 product-position product-quantity">
+  						<div class="quantity">
+  							<input type="text" step="1" name="" value="1" title="Qty" class="input-text qty text" size="4">
+  							<input type="button" value="+" class="plus hidden-xs">
+  							<input type="button" value="-" class="minus hidden-xs">
+  						</div>
+  					</div>
+  					<div class="col-xs-2 product-position product-subtotal">
+  						<span class="amount">$22.90</span>
+  					</div>
+  					<div class="col-xs-1 product-position product-remove">
+  						<a href="#" class="remove" data-djax-exclude="true" title="Remove this item"><i class="icon-close"></i></a>
+  					</div>
+  				</div>
+  				<div class="row cart-item">
+  					<div class="col-xs-4 col-sm-5 product-name">
+  						<a href="product.html" class="product-thumbnail"><img src="http://placehold.it/100x100" class="" alt=""></a>
+  						<a href="product.html" class="name">Lap Tops</a>
+  					</div>
+  					<div class="col-xs-2 product-position product-price">
+  						<span class="amount">$116.50</span>
+  					</div>
+  					<div class="col-xs-2 product-position product-quantity">
+  						<div class="quantity">
+  							<input type="text" step="1" name="" value="1" title="Qty" class="input-text qty text" size="4">
+  							<input type="button" value="+" class="plus hidden-xs">
+  							<input type="button" value="-" class="minus hidden-xs">
+  						</div>
+  					</div>
+  					<div class="col-xs-2 product-position product-subtotal">
+  						<span class="amount">$116.50</span>
+  					</div>
+  					<div class="col-xs-1 product-position product-remove">
+  						<a href="#" class="remove" data-djax-exclude="true" title="Remove this item"><i class="icon-close"></i></a>
+  					</div>
+  				</div>
+  				<div class="row cart-item">
+  					<div class="col-xs-4 col-sm-5 product-name">
+  						<a href="product.html" class="product-thumbnail"><img src="http://placehold.it/100x100" class="" alt=""></a>
+  						<a href="product.html" class="name">Pleated Scarfs</a>
+  						<span>Size: L</span>
+  						<span>Color: Black</span>
+  					</div>
+  					<div class="col-xs-2 product-position product-price">
+  						<span class="amount">$15.90</span>
+  					</div>
+  					<div class="col-xs-2 product-position product-quantity">
+  						<div class="quantity">
+  							<input type="text" step="1" name="" value="3" title="Qty" class="input-text qty text" size="4">
+  							<input type="button" value="+" class="plus hidden-xs">
+  							<input type="button" value="-" class="minus hidden-xs">
+  						</div>
+  					</div>
+  					<div class="col-xs-2 product-position product-subtotal">
+  						<span class="amount">$47.70</span>
+  					</div>
+  					<div class="col-xs-1 product-position product-remove">
+  						<a href="#" class="remove" data-djax-exclude="true" title="Remove this item"><i class="icon-close"></i></a>
+  					</div>
+  				</div>
+
+  				<div class="row cart-subtotal">
+  					<div class="col-xs-2 col-xs-offset-6 col-sm-offset-7 subtotal-txt">
+  						<span>Total:</span>
+  					</div>
+  					<div class="col-xs-2 subtotal">
+  						<span class="amount">$87.10</span>
+  					</div>
+  				</div>
+  				<div class="row cart-buttons">
+  					<div class="col-xs-12">
+  						<a href="#" class="btn btn-dark  continue-shopping">Continue shopping</a>
+  						<div class="product-btn">
+  							<a href="#" class="btn btn-default ">clear shopping cart</a>
+  							<a href="#" class="btn btn-default  ">Update basket</a>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="row cart-buttons">
+  					<div class="col-xs-12">
+  						<div class="coupon-code">
+  							<input type="text" placeholder="Coupon code" class="form-control">
+  							<a href="#" class="btn btn-default ">Apply coupon</a>
+  						</div>
+  						<div class="product-btn">
+  							<a href="#" class="btn btn-color  ">Proceed to checkout</a>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  </section>
+<div class="footer-copyright text-center py-3">© e-commerce:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> ecommerce.com</a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
