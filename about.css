@@ -1,0 +1,59 @@
+#about-us{
+    background-color: #4C4731;
+    color: white;  
+    margin-right: -12px; 
+    margin-left: -12px;
+}
+#about-item-line {
+    background-color: #4C4731;
+    width: 90%;
+}
+.section-headers .about-item  a {
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.section-headers .about-item  a:hover {
+    color:black;
+    background-color: #a0966c;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.section-we-today{
+    background: url(img1.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+#link-our-values{
+    background-color: #31444C;
+    color: white; 
+      
+}
+
+.section-history{
+    background: url(img2.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.section-vision{
+    background: url(img3.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    /* margin-right: 12px;  */
+}
+
+
+
+/* .non-white-text {
+    color: #333333; 
+} */
