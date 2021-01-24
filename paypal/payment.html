@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Paypal Payment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="payment-page" class="container-fluid">
+        <div class="row payment-details">
+                <div class="header text-center">
+                    <h2>Price Details</h2>
+                </div>
+        <div class="row d-flex justify-content-center"> 
+                <div class="details-box col-12">
+                    <div class="charges col-12 d-flex justify-content-center">
+                        <ul>
+                        <li>
+                            <label for="product-price">Products (x items): </label><span>$100</span>
+                        </li>
+                        <li>
+                            <label for="delivery-price">Delivery Charges: </label> <span>Free</span>
+                        </li>
+                        <li>
+                            <label for="subtotal-price">Amount Payable: </label> <span class="text-red">$100</span>
+                        </li>
+                        </ul>
+                    </div>
+                    &nbsp
+                    <div class="button-container d-flex justify-content-center">
+                        <div id="paypal-button-container"></div>
+                    </div>
+                    
+                </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+<script src="https://www.paypal.com/sdk/js?client-id=AZ_M644K_tsZx2qrRsPEaObEDwlL2JVMaP2-TYFGUSKBpoHxvatesFxGQiZSuCtMXsohC-alUzhLfyKY"></script>
+    <!-- <script>paypal.Button().render('#paypal-button')</script> -->
+    <!-- <div id="paypal-button"></div> -->
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
